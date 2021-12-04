@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+.mask-bg.is-animated {
+  animation-name: fade;
+  animation-duration: 2s;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
