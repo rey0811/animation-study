@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>左右から要素を表示する</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <!--==============レイアウトを制御する独自のCSSを読み込み===============-->
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+
+  <p>↓<br>↓<br>↓<br>↓<br>↓<br>↓<br>↓<br>↓<br>↓<br>↓<br>↓<br>↓<br>↓<br>↓<br>↓<br>↓<br>↓<br>↓<br>↓<br>↓<br>↓<br>↓<br>↓<br>↓<br>↓<br>↓<br>↓<br>↓<br>↓<br>↓<br>↓<br>↓<br>↓<br>↓<br>↓<br>↓<br>↓<br>↓<br>↓<br>↓<br>↓</p>
+
+  <div class="mask-bg js-anim left animate__animated">
+    Step 1 左からアイテムを表示する
+  </div>
+  <div class="mask-bg js-anim right animate__animated">
+    Step 2 右からアイテムを表示する
+  </div>
+  <div class="mask-bg js-anim left animate__animated">
+    Step 3 左からアイテムを表示する
+  </div>
+  <div class="mask-bg js-anim right animate__animated">
+    Step 4 右からアイテムを表示する
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+</html>
