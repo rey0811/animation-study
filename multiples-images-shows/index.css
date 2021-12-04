@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+/*========= レイアウトのためのCSS ===============*/
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 220px;
+  padding: 20px;
+  margin: 0 20px 20px 20px;
+  background: #666;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+/*==================================================
+スタート時は要素自体を透過0にするためのopacity:0;を指定する
+===================================*/
+
+.box {
+  opacity: 0;
+}
+
+/* アニメーションスタートの遅延時間を決めるCSS*/
+
+.delay-time05 {
+  animation-delay: 0.5s;
+}
+
+.delay-time10 {
+  animation-delay: 1s;
+}
